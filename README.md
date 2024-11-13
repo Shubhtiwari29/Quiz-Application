@@ -14,18 +14,18 @@ It integrates a load balancer to manage traffic efficiently across services, enh
 Exposes endpoints for various operations like creating quizzes, adding questions, and getting quiz results.
 
 # Technologies Used :->
-Spring Boot: Core framework for building and deploying the application.
-Spring Cloud Load Balancer: Balances incoming requests across services.
-MySQL: Database for storing quiz data and user details.
-Java: Primary programming language.
-Docker (Optional): Used for containerization to simplify deployment.
+1) Spring Boot: Core framework for building and deploying the application.
+2) Spring Cloud Load Balancer: Balances incoming requests across services.
+3) MySQL: Database for storing quiz data and user details.
+4) Java: Primary programming language.
+5) Docker (Optional): Used for containerization to simplify deployment.
 
 # Prerequisites :->
 To run this project, you’ll need
-Java 17
-Maven
-MySQL server
-Spring Cloud dependencies for load balancing
+1) Java 17
+2) Maven
+3) MySQL server
+4) Spring Cloud dependencies for load balancing
 
 # Database Congiguration :->
 Create a MySQL database (e.g., quiz_db).
