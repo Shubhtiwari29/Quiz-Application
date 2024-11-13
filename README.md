@@ -44,12 +44,12 @@ For example:
 spring.cloud.loadbalancer.ribbon.enabled=true
 
 # API Endpoints :->
-Create Quiz: POST /api/quiz
-Add Question: POST /api/quiz/{quizId}/questions
-Get Quiz by ID: GET /api/quiz/{quizId}
-Update Quiz: PUT /api/quiz/{quizId}
-Delete Quiz: DELETE /api/quiz/{quizId}
-List Quizzes: GET /api/quiz
+1) Create Quiz: POST /api/quiz
+2) Add Question: POST /api/quiz/{quizId}/questions
+3) Get Quiz by ID: GET /api/quiz/{quizId}
+4) Update Quiz: PUT /api/quiz/{quizId}
+5) Delete Quiz: DELETE /api/quiz/{quizId}
+6) List Quizzes: GET /api/quiz
 
 # Testing API end point :->
 Once the application is running, you can use Postman or any API client to test the endpoints. 
